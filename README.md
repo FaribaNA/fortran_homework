@@ -10,8 +10,8 @@ This project contains two simple Fortran programs that demonstrate important num
 
 | File | Description |
 |------|--------------|
-| `overflow.f90` | Calculates factorial values using 32-bit and 64-bit integers to show where overflow occurs and how results drift. |
-| `precision.f90` | shows when adding a very small number to 1.0 no longer changes the result, showing floating-point precision limits. |
+| `00_overflow.f90` | Calculates factorial values using 32-bit and 64-bit integers to show where overflow occurs and how results drift. |
+| `01_precision.f90` | shows when adding a very small number to 1.0 no longer changes the result, showing floating-point precision limits. |
 
 ---
 
@@ -32,8 +32,8 @@ sudo apt install gfortran
 ## Compilation
 
 ```bash
-gfortran overflow.f90 -o overflow
-gfortran precision.f90 -o precision.f90
+gfortran 00_overflow.f90 -o overflow
+gfortran 01_precision.f90 -o precision
 ## Running the Programs
 To run the factorial overflow program:
 
@@ -43,4 +43,4 @@ To run the factorial overflow program:
 ## To run the loss of significance program:
 
 ```bash
-./precision.f90
+./precision
