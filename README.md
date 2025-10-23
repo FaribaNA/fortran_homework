@@ -44,7 +44,7 @@ main.f90	Main program that prompts the user, performs calculations, and prints r
 gfortran types.f90 mathfun.f90 geom2d.f90 main.f90 -o testrun
 ./testrun
 ```
-Requirements
+Requirements: 
 A Fortran compiler such as gfortran (tested on Ubuntu 24.04 LTS).
 
 To install:
