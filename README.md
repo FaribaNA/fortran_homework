@@ -26,11 +26,11 @@ gfortran 00_overflow.f90 -o overflow
 gfortran 01_precision.f90 -o precision
 ./precision
 ```
-Homework 2
+## Homework 2
 This homework practices modular programming in Fortran by defining and using simple mathematical and geometrical functions.
 The program demonstrates how to organize code into modules, pass arguments with intent, and perform basic calculations.
 
-Files
+### Files
 
 ```
 File	Description
@@ -39,10 +39,7 @@ mathfun.f90	Contains add() and swap() routines for basic arithmetic operations.
 geom2d.f90	Provides carea(), sarea(), and rectap() functions for geometric calculations.
 main.f90	Main program that prompts the user, performs calculations, and prints results.
 ```
-How to Run:
-Make sure all source files are in the same directory.
-Then compile and execute using the following commands:
-
+### How to Run:
 ```bash
 gfortran types.f90 mathfun.f90 geom2d.f90 main.f90 -o testrun
 ./testrun
